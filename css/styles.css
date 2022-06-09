@@ -488,25 +488,16 @@ img {
   justify-content: center;
   width: 100%;
   height: 100%;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
-  color: var(--icon-color);
 }
 
 .clients-icon {
-  fill: currentColor;
+  color: var(--icon-color);
 }
 
-.clients-link:hover,
-.clients-link:focus {
-  background-color: var(--accent-color);
-}
-
-.clients-link:hover,
-.clients-link:focus,
-.clients-icon:hover,
-.clients-icon:focus {
-  fill: var(--icon-color);
+.clients-link:hover .clients-icon {
+  fill: var(--accent-color);
 }
 
 /* ------------ FOOTER ------------ */
