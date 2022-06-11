@@ -87,9 +87,9 @@ img {
 }
 
 .container {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
@@ -128,8 +128,6 @@ img {
 /* ------------ HEADER ------------ */
 .header-page {
   border-bottom: 1px solid #ececec;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
 }
 
 .header-page .container {
@@ -210,6 +208,15 @@ img {
 
 /* ------------ HERO ------------ */
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  text-align: center;
+
   background-color: var(--footer-bg-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -220,14 +227,6 @@ img {
   background-position: center;
   background-size: cover;
   outline: 2px solid tomato;
-
-  padding-top: 200px;
-  padding-bottom: 200px;
-
-  text-align: center;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-title {
@@ -244,10 +243,10 @@ img {
 
 .hero-btn {
   display: inline-block;
+  min-width: 200px;
   padding: 10px 32px;
   border: 0;
   border-radius: 4px;
-  min-width: 200px;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -276,7 +275,6 @@ img {
 
   border-radius: 4px;
   margin-bottom: 30px;
-  /* width: 270px; */
   height: 120px;
 }
 
@@ -308,6 +306,19 @@ img {
   line-height: 1.71;
 }
 
+/* .feature-item::before
+  display: block;
+  content: "";
+  height: 120px;
+  background-image: ../images/icons.svg#icon-antenna
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ccc;
+
+  border-radius: 4px;
+  margin-bottom: 30px;
+ */
 /* ------------ ABOUT ------------*/
 .about {
   padding-bottom: 94px;
