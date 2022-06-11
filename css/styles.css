@@ -270,29 +270,25 @@ img {
 }
 
 /* ------------ FEATURE ------------ */
-.thumb-icon {
-  background-color: var(--team-button-bg-color);
-  border-radius: 4px;
-  margin-bottom: 30px;
+.thumb {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-color: var(--team-button-bg-color);
+
+  border-radius: 4px;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
 }
 
-/* .feature-item + .feature-item {
+.feature-item + .feature-item {
   margin-left: 30px;
-} */
+}
 
 .feature-list {
   display: flex;
-  margin-left: -30px;
-}
-
-.feature-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
 }
 
 .feature-title {
