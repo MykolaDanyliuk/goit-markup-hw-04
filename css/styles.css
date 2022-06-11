@@ -270,24 +270,20 @@ img {
 }
 
 /* ------------ FEATURE ------------ */
-.feature-icon-list {
-  display: flex;
-  margin-bottom: 30px;
-  /* align-items: center; */
-  /* justify-content: center; */
-  gap: 30px;
-}
-
-.feature-icon-item {
-  display: flex;
-  /* margin-left: 30px; */
-
-  padding: 25px 100px;
-  border-radius: 4px;
+.thumb-icon {
   background-color: var(--team-button-bg-color);
-
-  flex-basis: calc((100% - 90px) / 4);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
 }
+
+/* .feature-item + .feature-item {
+  margin-left: 30px;
+} */
 
 .feature-list {
   display: flex;
