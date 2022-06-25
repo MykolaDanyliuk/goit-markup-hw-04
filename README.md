@@ -86,9 +86,20 @@ HTML-файле.
 **`«C6»`** При ховере или фокусе, иконки должны переходить в активное
 состояние - изменять цвет, если это указано в макете.
 
-### План занятия Александра Репеты (04-текст)
+### План занятия Александра Репеты (07-фон)
 
-- QnA
-- Разбор страницы "Портфолио"
-- [System Font Stack](https://systemfontstack.com/) и [это](https://devhints.io/css-system-font-stack)
-- Практика: шрифты и оформление текста
+- Фотореалестичные изображения JPG или PNG?
+- Фон. Допмат background-origin и background-clip
+- Многослойная картинка c прозрачным градиентом
+- Кнопка с иконкой, список с иконками (псевдоэлементы). [Допмат](https://habr.com/ru/post/154319/)
+- [Кнопка-иконка допмат](https://moderncss.dev/icon-button-css-styling-guide/)
+
+### План занятия Александра Репеты (08-векторная-графика)
+
+- SVG как img и background-image
+- Свойство fill
+- Инлайн SVG. Размеры, CSS fill и currentColor.
+- [stroke, width, linecap и dasharray](http://css.yoksel.ru/svg-fill-and-stroke/)
+- SVG-спрайт, символы и идентификатор фрагмента
+- Иконошрифты
+- [Кнопка-иконка](https://moderncss.dev/icon-button-css-styling-guide/)
